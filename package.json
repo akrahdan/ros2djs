@@ -4,9 +4,11 @@
   "description": "2D Visualization Library for use with the ROS JavaScript Libraries",
   "version": "0.10.0",
   "license": "BSD-3-Clause",
-  "main": "./build/ros2d.cjs.js",
-  "module": "./build/ros2d.esm.js",
+  "main": "./build/ros2d.js",
+  "module": "./build/ros2d.js",
   "dependencies": {
+    "@types/createjs": "^0.0.29",
+    "createjs": "^1.0.1",
     "easeljs": "^1.0.2",
     "eventemitter2": "^6.4.0",
     "roslib": "^1.0.0"
